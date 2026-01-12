@@ -1,5 +1,5 @@
 {
-  "name": "@kyasms/sdk",
+  "name": "@kya-sms/sdk",
   "version": "1.0.0",
   "description": "Official JavaScript/TypeScript SDK for KYA SMS API - Send SMS, OTP, and manage campaigns",
   "main": "dist/index.js",

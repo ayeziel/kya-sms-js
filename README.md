@@ -1,7 +1,7 @@
 # KYA SMS JavaScript/TypeScript SDK
 
-[![npm version](https://img.shields.io/npm/v/@kyasms/sdk.svg)](https://www.npmjs.com/package/@kyasms/sdk)
-[![License](https://img.shields.io/npm/l/@kyasms/sdk.svg)](https://github.com/ayeziel/kya-sms-js/blob/main/LICENSE)
+[![npm version](https://img.shields.io/npm/v/@kya-sms/sdk.svg)](https://www.npmjs.com/package/@kya-sms/sdk)
+[![License](https://img.shields.io/npm/l/@kya-sms/sdk.svg)](https://github.com/ayeziel/kya-sms-js/blob/main/LICENSE)
 [![TypeScript](https://img.shields.io/badge/TypeScript-Ready-blue.svg)](https://www.typescriptlang.org/)
 
 SDK JavaScript/TypeScript officiel pour l'API KYA SMS. Envoyez des SMS, OTP et gérez vos campagnes facilement.
@@ -22,13 +22,13 @@ SDK JavaScript/TypeScript officiel pour l'API KYA SMS. Envoyez des SMS, OTP et g
 
 ```bash
 # npm
-npm install @kyasms/sdk
+npm install @kya-sms/sdk
 
 # yarn
-yarn add @kyasms/sdk
+yarn add @kya-sms/sdk
 
 # pnpm
-pnpm add @kyasms/sdk
+pnpm add @kya-sms/sdk
 ```
 
 ### Prérequis
@@ -41,7 +41,7 @@ pnpm add @kyasms/sdk
 ## Quick Start
 
 ```typescript
-import { KyaSms } from '@kyasms/sdk';
+import { KyaSms } from '@kya-sms/sdk';
 
 // Créer le client
 const client = new KyaSms('votre-cle-api');
@@ -56,7 +56,7 @@ console.log('Statut:', result.getStatus());
 ### Configuration
 
 ```typescript
-import { KyaSms } from '@kyasms/sdk';
+import { KyaSms } from '@kya-sms/sdk';
 
 // Méthode 1: Simple
 const client = new KyaSms('votre-cle-api');
@@ -508,7 +508,7 @@ import {
   ValidationError,
   ApiError,
   NetworkError,
-} from '@kyasms/sdk';
+} from '@kya-sms/sdk';
 
 const client = new KyaSms('votre-cle-api');
 
@@ -583,5 +583,5 @@ MIT License - voir [LICENSE](LICENSE)
 ## Support
 
 - Documentation: https://docs.kyasms.com
-- Email: support@kyasms.com
+- Email: support@kya-sms.com
 - Issues: https://github.com/ayeziel/kya-sms-js/issues
